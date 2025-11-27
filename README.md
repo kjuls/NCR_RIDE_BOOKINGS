@@ -176,3 +176,12 @@ Bookings by the day
 
 **Result**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Demand%20Analysis%20Plot.png)
+
+The “Bookings by Hour of Day” analysis shows a distinct bi-modal trend in ride demand. Bookings peak during morning (8–10 AM) and evening (5–8 PM) hours, aligning with typical commuter behavior. Demand remains low during late-night and midday periods. Uber can improve service efficiency by allocating more drivers during peak hours and introducing off-peak promotions to encourage balanced utilization throughout the day.
+
+**2.	Cancellation Analysis** 
+
+This report analyzes booking outcomes from the dataset, focusing on understanding who cancels more (drivers or customers), and identifying operational issues that contribute to unsuccessful bookings. The analysis uses value counts of booking status and a bar chart illustrating the distribution of booking outcomes.
+
+- I.	What is the overall cancellation rate?
