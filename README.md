@@ -192,3 +192,10 @@ The overall cancellation rate is 25%.
 
 - II.	Who cancels more? Driver vs Customer
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Who%20cancels%20more.png)
+
+The data shows that while a high number of bookings are successfully completed, there is a significant volume of cancellations driven predominantly by supply-side (driver-related) issues.
+
+- III.	Cancellations overview
+
+
