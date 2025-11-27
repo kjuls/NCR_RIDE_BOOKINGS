@@ -7,7 +7,7 @@ This project presents a professional data analysis of an Uber ride dataset. The 
 - Project Objectives 
 - Dataset Description
 - Document Purpose  
-- Data Source 
+- [Data Source](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard)
 - Data Cleaning and Processing 
 - Data Analysis and Insights
 - Recommendation 
@@ -52,7 +52,7 @@ This document serves as a comprehensive reference for stakeholders, providing:
 - Insights derived from the analysis and their business implications.
 
 ### Data source
-The dataset for this project is sourced from Kaggle website and includes information on 150,000 total bookings across multiple vehicle types and provides a complete view of ride-sharing operations including successful rides, cancellations, customer behaviors, and financial metrics.
+The dataset for this project is sourced from [Kaggle website](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard) and includes information on 150,000 total bookings across multiple vehicle types and provides a complete view of ride-sharing operations including successful rides, cancellations, customer behaviors, and financial metrics.
 
 ### Data Cleaning and Preparation
 The preprocessing phase focused on ensuring data consistency and reliability.
@@ -75,3 +75,12 @@ import seaborn as sns
 2.	Loading the Dataset
 
 ![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Loading%20The%20Dataset.png)
+
+3.	Are there any Null Values? How will it be handled?
+
+Null values refer to missing or undefined entries in a dataset. They can occur due to incomplete data collection, system errors, or manual omissions. Identifying null values is crucial as they can lead to inaccuracies in analysis or misinterpretation of results. Outliers are extreme data points that deviate significantly from the majority of observations. They can arise from errors, rare events, or natural variability within the data. These values have the potential to skew statistical measures and distort the overall analysis if not properly addressed.
+
+Both null values and outliers are critical considerations during the data cleaning process. Their presence affects the dataset's quality and reliability, making their detection and evaluation a vital step in preparing data for meaningful analysis.
+
+In order to carry out the above, this was done;
+![](
