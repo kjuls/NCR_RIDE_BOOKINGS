@@ -94,4 +94,47 @@ The code: df.isnull().sum() was applied
 
 **Result:**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Null%20Columns.png)
+
+From the above 
+
+The missing values are logical, not errors. They just represent non-applicable scenarios e.g.; a complete ride won’t have a cancellation reason.
+
+- **Filling Missing Values for a Clean Reporting** 
+
+**i.	For numeric columns:** VTAT, CTAT, Booking Value, Distance, Ratings, should be replaced with mean, median, or 0 if it means “Not Applicable”.
+
+**CODE:**
+
+df['Avg VTAT'].fillna(df['Avg VTAT'].median(), inplace=True)
+
+df['Avg CTAT'].fillna(df['Avg CTAT'].median(), inplace=True)
+
+df['Booking Value'].fillna(0, inplace=True)
+
+df['Ride Distance'].fillna(0, inplace=True)
+
+df['Driver Ratings'].fillna(df['Driver Ratings'].mean(), inplace=True)
+
+df['Customer Rating'].fillna(df['Customer Rating'].mean(), inplace=True)
+
+**ii.	For categorical columns:** Replace missing values with placeholder like “Not Applicable” and “No Payment”.
+
+**CODE:** 
+
+df['Reason for cancelling by Customer'].fillna('Not Applicable', inplace=True)
+
+df['Driver Cancellation Reason'].fillna('Not Applicable', inplace=True)
+
+df['Incomplete Rides Reason'].fillna('Not Applicable', inplace=True)
+
+df['Payment Method'].fillna('No Payment (Cancelled)', inplace=True)
+
+df['Cancelled Rides by Customer'].fillna('Not Applicable', inplace=True)
+
+df['Cancelled Rides by Driver'].fillna('Not Applicable', inplace=True)
+
+df['Incomplete Rides'].fillna('Not Applicable', inplace=True)
+
+**RESULT:**
 
