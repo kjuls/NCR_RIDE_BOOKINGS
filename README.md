@@ -64,7 +64,7 @@ Key steps included:
 - Handling missing or invalid values appropriately.
 - Ensuring numerical data (e.g., booking value, distance) were in the correct format.
 
-1.	Importing Required libraries 
+**1.	Importing Required libraries** 
 
 import pandas as pd
 
@@ -72,11 +72,11 @@ import matplotlib.pyplot as plt
 
 import seaborn as sns
 
-2.	Loading the Dataset
+**2.	Loading the Dataset**
 
 ![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Loading%20The%20Dataset.png)
 
-3.	Are there any Null Values? How will it be handled?
+**3.	Are there any Null Values? How will it be handled?**
 
 Null values refer to missing or undefined entries in a dataset. They can occur due to incomplete data collection, system errors, or manual omissions. Identifying null values is crucial as they can lead to inaccuracies in analysis or misinterpretation of results. Outliers are extreme data points that deviate significantly from the majority of observations. They can arise from errors, rare events, or natural variability within the data. These values have the potential to skew statistical measures and distort the overall analysis if not properly addressed.
 
@@ -142,14 +142,14 @@ df['Incomplete Rides'].fillna('Not Applicable', inplace=True)
 
 From the table above the dataset contain columns with no missing values.
 
-4.	Convert the Date column
+**4.	Convert the Date column**
 
 ![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Convert%20the%20date%20column.png)
 
 - Changes the ‘date’ column from a string (text) into a proper datetime object.
 - This makes it easier to sort by date, filter by date ranges, or extract parts like month, day, or year.
 
-5.	Combine Date and Time into Datetime column
+**5.	Combine Date and Time into Datetime column**
 
 ![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Combine%20date%20and%20time.png)
 
@@ -157,6 +157,18 @@ From the table above the dataset contain columns with no missing values.
 - This is crucial for time-based analysis (hourly, daily, weekly patterns).
 - astype(str) converts them to strings temporarily for safe concatenation, then pd.to_datetime() converts them back to timestamps.
 
-6.	Extract Hour and Day of the week
+**6.	Extract Hour and Day of the week**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Extract%20hour.png)
+
+- dt.hour creates a new column ‘hour’ that stores just the hour of the day (0-23).
+- It is super helpful for analyzing peak booking hours.
+- dt.day_name creates extract and create another new column that contains the name of the weekday (e.g., Monday, Tuesday,).
+- It is useful for analyzing daily trends (weekend vs weekday demand).
+
+### Data Analysis and Insights 
+
+**1.	Demand analysis**
+
+Bookings by the day
 
