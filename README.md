@@ -151,3 +151,12 @@ From the table above the dataset contain columns with no missing values.
 
 5.	Combine Date and Time into Datetime column
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Combine%20date%20and%20time.png)
+
+- Merges the two columns (date and time) into one full timestamp column called ‘datetime’.
+- This is crucial for time-based analysis (hourly, daily, weekly patterns).
+- astype(str) converts them to strings temporarily for safe concatenation, then pd.to_datetime() converts them back to timestamps.
+
+6.	Extract Hour and Day of the week
+
+
