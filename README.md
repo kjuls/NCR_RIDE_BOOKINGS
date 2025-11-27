@@ -218,3 +218,13 @@ CTAT (Customer Time After Trip) - Total time the customer remains engaged during
 
 **Result:**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Operational%20Metrics%20Plot.png)
+
+- **VTAT is stable and low:** Strong pickup efficiency across categories.
+- **CTAT is high but uniform:** Trip duration is more influenced by traffic/trip length than vehicle type.
+- **No vehicle type underperforms:** Fleet management and matching are consistent.
+
+**4.	Revenue & Distance Analysis**
+
+- Revenue (Total & Average)
+
