@@ -83,4 +83,15 @@ Null values refer to missing or undefined entries in a dataset. They can occur d
 Both null values and outliers are critical considerations during the data cleaning process. Their presence affects the dataset's quality and reliability, making their detection and evaluation a vital step in preparing data for meaningful analysis.
 
 In order to carry out the above, this was done;
-![](
+
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/DF.Info.png)
+
+df.info() displays the structure of the Data Frame, including column names, data types, and counts of non-null values. 
+
+- To count the number of missing values of each column in the dataset.
+
+The code: df.isnull().sum() was applied 
+
+**Result:**
+
+
