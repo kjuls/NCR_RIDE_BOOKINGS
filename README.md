@@ -268,3 +268,15 @@ eBikes generate even less revenue due to:
 
 **Result:**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Distance%20vs%20value%20plot.png)
+
+The plot above shows that a positive relationship exist. As distance increases booking value generally increases. The plot shows that there’s a high variability in Booking Value.
+
+The spread remains noisy, meaning pricing is not purely distance-driven but uses multiple dynamic factors. 
+
+**5.	Ratings Overview**
+
+- **Average ratings**
+
+
+
