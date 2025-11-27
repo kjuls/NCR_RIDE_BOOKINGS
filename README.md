@@ -238,3 +238,29 @@ The above indicates a high-volume, mid-value ride ecosystem, meaning the platfor
 
 **Result:**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Revenue%20by%20vehicle%20type%20plot.png)
+
+Insights 
+1.	Auto Generates the Highest Revenue
+
+2.	Go Mini and Go Sedan Perform Strongly
+
+3.	Uber XL Generates the Least Revenue
+- XL rides are expensive but rarely booked
+- Low demand → low total revenue
+- Indicates a niche use case (group travel, airport trips)
+
+4.	Bike and eBike in Mid-Low Revenue Zone
+
+Bikes generate decent revenue because they are:
+- Cheap
+- Fast in traffic
+- Ideal for short trips
+
+eBikes generate even less revenue due to:
+- Limited fleet
+- Limited distance capability
+- Lower customer adoption
+
+- **Distance vs value**
+
