@@ -138,4 +138,4 @@ df['Incomplete Rides'].fillna('Not Applicable', inplace=True)
 
 **RESULT:**
 
-![](
+![]
