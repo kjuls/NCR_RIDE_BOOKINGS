@@ -144,4 +144,10 @@ From the table above the dataset contain columns with no missing values.
 
 4.	Convert the Date column
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Convert%20the%20date%20column.png)
+
+- Changes the ‘date’ column from a string (text) into a proper datetime object.
+- This makes it easier to sort by date, filter by date ranges, or extract parts like month, day, or year.
+
+5.	Combine Date and Time into Datetime column
 
