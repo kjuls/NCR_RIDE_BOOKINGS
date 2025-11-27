@@ -185,3 +185,10 @@ The “Bookings by Hour of Day” analysis shows a distinct bi-modal trend in ri
 This report analyzes booking outcomes from the dataset, focusing on understanding who cancels more (drivers or customers), and identifying operational issues that contribute to unsuccessful bookings. The analysis uses value counts of booking status and a bar chart illustrating the distribution of booking outcomes.
 
 - I.	What is the overall cancellation rate?
+
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Overall%20cancellation%20rate.png)
+
+The overall cancellation rate is 25%. 
+
+- II.	Who cancels more? Driver vs Customer
+
