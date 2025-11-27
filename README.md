@@ -73,3 +73,5 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 2.	Loading the Dataset
+
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Loading%20The%20Dataset.png)
