@@ -226,5 +226,11 @@ CTAT (Customer Time After Trip) - Total time the customer remains engaged during
 
 **4.	Revenue & Distance Analysis**
 
-- Revenue (Total & Average)
+- **Revenue (Total & Average)**
+
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Revenue%20%26%20Distance.png)
+
+The above indicates a high-volume, mid-value ride ecosystem, meaning the platform earns well through a large number of moderately priced rides rather than high-value rides.
+
+- **Revenue by Vehicle Type**
 
