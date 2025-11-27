@@ -308,4 +308,8 @@ The histogram shows a small but noticeable clusters of 3.0 – 4.0 ratings for b
 
 - **Payment method preference plot**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Payment%20prefrence%20plot.png)
+
+**Result:**
+
 
