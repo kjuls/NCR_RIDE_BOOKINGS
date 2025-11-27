@@ -202,4 +202,15 @@ The data shows that while a high number of bookings are successfully completed, 
 
 **Result:**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Cancellation%20Plot.png)
+
+With 93,000 completed trips, the platform demonstrates strong operational efficiency for the majority of requests. This indicates healthy engagement between customers and drivers and a functioning matching ecosystem.
+
+However, the remaining unsuccessful booking outcomes need further attention.
+
+**3.	Average VTAT & CTAT by Vehicle Type**
+
+VTAT (Vehicle Time to Arrive at Trip) - How long it takes a driver to reach the customer after accepting a trip.
+
+CTAT (Customer Time After Trip) - Total time the customer remains engaged during the trip (likely including travel time + waiting).
 
