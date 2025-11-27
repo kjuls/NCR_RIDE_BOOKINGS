@@ -214,3 +214,7 @@ VTAT (Vehicle Time to Arrive at Trip) - How long it takes a driver to reach the 
 
 CTAT (Customer Time After Trip) - Total time the customer remains engaged during the trip (likely including travel time + waiting).
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Operational%20Metrics.png)
+
+**Result:**
+
