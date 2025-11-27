@@ -138,4 +138,10 @@ df['Incomplete Rides'].fillna('Not Applicable', inplace=True)
 
 **RESULT:**
 
-![]
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Updated%20Null%20Columns.png)
+
+From the table above the dataset contain columns with no missing values.
+
+4.	Convert the Date column
+
+
