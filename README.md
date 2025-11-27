@@ -288,3 +288,7 @@ The above shows that:
 
 - **Ratings distribution**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Rating%20distribution.png)
+
+**Result:**
+
