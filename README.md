@@ -246,21 +246,21 @@ Insights
 2.	Go Mini and Go Sedan Perform Strongly
 
 3.	Uber XL Generates the Least Revenue
-- XL rides are expensive but rarely booked
-- Low demand → low total revenue
-- Indicates a niche use case (group travel, airport trips)
+- XL rides are expensive but rarely booked.
+- Low demand → low total revenue.
+- Indicates a niche use case (group travel, airport trips).
 
 4.	Bike and eBike in Mid-Low Revenue Zone
 
 Bikes generate decent revenue because they are:
-- Cheap
-- Fast in traffic
-- Ideal for short trips
+- Cheap.
+- Fast in traffic.
+- Ideal for short trips.
 
 eBikes generate even less revenue due to:
-- Limited fleet
-- Limited distance capability
-- Lower customer adoption
+- Limited fleet.
+- Limited distance capability.
+- Lower customer adoption.
 
 - **Distance vs value**
 
@@ -278,5 +278,13 @@ The spread remains noisy, meaning pricing is not purely distance-driven but uses
 
 - **Average ratings**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Average%20ratings.png)
 
+The above shows that:
+- Customers are happier with drivers than drivers are with customers.
+- Drivers are stricter and more critical in rating.
+- Customer behavior may be more problematic or inconsistent.
+- Driver performance is stable and acceptable but not exceptional.
+
+- **Ratings distribution**
 
