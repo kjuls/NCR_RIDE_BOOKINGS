@@ -198,4 +198,8 @@ The data shows that while a high number of bookings are successfully completed, 
 
 - III.	Cancellations overview
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Cancellations%20Overview.png)
+
+**Result:**
+
 
