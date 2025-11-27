@@ -172,3 +172,7 @@ From the table above the dataset contain columns with no missing values.
 
 Bookings by the day
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Demand%20Analysis.png)
+
+**Result**
+
