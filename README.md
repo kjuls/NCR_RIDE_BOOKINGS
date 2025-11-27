@@ -264,3 +264,7 @@ eBikes generate even less revenue due to:
 
 - **Distance vs value**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Distance%20vs%20value.png)
+
+**Result:**
+
