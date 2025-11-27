@@ -312,4 +312,39 @@ The histogram shows a small but noticeable clusters of 3.0 – 4.0 ratings for b
 
 **Result:**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Payment%20prefrence%20visual.png)
 
+The analysis above shows:
+- One-third of rides result in no completed payment, indicating extremely high cancellation behavior. 
+- UPI is becoming the platform’s strongest channel, enabling fast and frictionless completion.
+- Cash dependency remains moderate but contributes to payment disputes, higher driver cancellations, and operational delays.
+- Wallet + Card payment are underutilized (combine < 20%), missing an opportunity to lock in customer loyalty.
+
+### Recommendation 
+Based on the provided analysis, here are several recommendations for Uber Data Analysis:
+- Optimize driver allocation during peak hours to reduce cancellations.
+- Improve matching algorithm.
+- Implement driver incentive programs tied to performance ratings.
+- Conduct system log investigation into: API failures, driver app version fragmentation, payment errors, GPS dropout due to old devices.
+- Investigate vehicle types with longer VTAT/CTAT to improve efficiency.
+- Improve CTAT by addressing traffic & routing.
+- Analyze CTAT by time of day and area.
+- Consider premium pricing for faster pickup (VTAT).
+- Expand bike & ebike fleet in congested zones.
+- Address low-rating root causes.
+- Educate customers on Etiquette.
+- Improve pickup and communication experience.
+- Introduce real-time rating alerts.
+- Encourage digital payment adoption to improve transaction efficiency.
+- Monitor cancellation reasons regularly to improve both driver and customer experience.
+- Boost UPI adoption even further (Allow autopay for UPI)
+- Prevent cancellation at payment stage.
+
+### Conclusion 
+This Uber dataset analysis provides actionable insights into the operational and behavioral patterns of the ride-hailing ecosystem.
+
+By understanding booking trends, cancellations, and performance metrics, NCR Ride can implement data-driven strategies to improve efficiency, customer satisfaction, and revenue growth.
+
+Thank you for reading. I’m interested in Analytics role in an organization where I can showcase my skills, take more responsibilities, continue to learn, an organization that I can grow with, where my work will be highly beneficial to the organization.
+
+You can reach me on juliusokolawole@gmail.com
