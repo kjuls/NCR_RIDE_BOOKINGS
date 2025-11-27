@@ -292,3 +292,16 @@ The above shows that:
 
 **Result:**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Rating%20distribution%20plot.png)
+
+Driver Ratings cluster around 4.2 – 4.3 show that drivers are performing at a good but not perfect level, indicating: reliable service quality, and some dissatisfaction factors are recurring (delays, behavior, route choices, vehicle condition, etc.).  
+
+Customer Rating cluster higher around 4.4 – 4.5 shows that customer tend to rate drivers more generously than drivers rate customers.
+
+The histogram shows a small but noticeable clusters of 3.0 – 4.0 ratings for both groups. These represent dissatisfaction cases which implies red flags for operational issues affecting experience.
+
+**6.	Payment Method Analysis**
+
+- **Payment method counts**
+
+
