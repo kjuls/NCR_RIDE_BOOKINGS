@@ -234,3 +234,7 @@ The above indicates a high-volume, mid-value ride ecosystem, meaning the platfor
 
 - **Revenue by Vehicle Type**
 
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Revenue%20by%20vehicle%20type.png)
+
+**Result:**
+
