@@ -7,7 +7,7 @@ This project presents a professional data analysis of an Uber ride dataset. The 
 - Project Objectives 
 - Dataset Description
 - Document Purpose  
-- [Data Source](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard)
+- Data Source
 - Data Cleaning and Processing 
 - Data Analysis and Insights
 - Recommendation 
@@ -66,15 +66,21 @@ Key steps included:
 
 **1.	Importing Required libraries** 
 
-import pandas as pd
+`import pandas as pd`
 
-import matplotlib.pyplot as plt
+`import matplotlib.pyplot as plt`
 
-import seaborn as sns
+`import seaborn as sns`
 
 **2.	Loading the Dataset**
 
 ![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Loading%20The%20Dataset.png)
+
+```df = pd.read_excel('/content/drive/MyDrive/My Assessment/ncr_ride_booking.csv.xlsx')```
+
+After saving the data file in the variable as `df`, the dataset is called out using only the variable.
+
+`df`
 
 **3.	Are there any Null Values? How will it be handled?**
 
@@ -86,7 +92,7 @@ In order to carry out the above, this was done;
 
 ![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/DF.Info.png)
 
-df.info() displays the structure of the Data Frame, including column names, data types, and counts of non-null values. 
+`df.info()` displays the structure of the Data Frame, including column names, data types, and counts of non-null values. 
 
 - To count the number of missing values of each column in the dataset.
 
@@ -106,35 +112,35 @@ The missing values are logical, not errors. They just represent non-applicable s
 
 **CODE:**
 
-df['Avg VTAT'].fillna(df['Avg VTAT'].median(), inplace=True)
+`df['Avg VTAT'].fillna(df['Avg VTAT'].median(), inplace=True)`
 
-df['Avg CTAT'].fillna(df['Avg CTAT'].median(), inplace=True)
+`df['Avg CTAT'].fillna(df['Avg CTAT'].median(), inplace=True)`
 
-df['Booking Value'].fillna(0, inplace=True)
+`df['Booking Value'].fillna(0, inplace=True)`
 
-df['Ride Distance'].fillna(0, inplace=True)
+`df['Ride Distance'].fillna(0, inplace=True)`
 
-df['Driver Ratings'].fillna(df['Driver Ratings'].mean(), inplace=True)
+`df['Driver Ratings'].fillna(df['Driver Ratings'].mean(), inplace=True)`
 
-df['Customer Rating'].fillna(df['Customer Rating'].mean(), inplace=True)
+`df['Customer Rating'].fillna(df['Customer Rating'].mean(), inplace=True)`
 
 **ii.	For categorical columns:** Replace missing values with placeholder like “Not Applicable” and “No Payment”.
 
 **CODE:** 
 
-df['Reason for cancelling by Customer'].fillna('Not Applicable', inplace=True)
+`df['Reason for cancelling by Customer'].fillna('Not Applicable', inplace=True)`
 
-df['Driver Cancellation Reason'].fillna('Not Applicable', inplace=True)
+`df['Driver Cancellation Reason'].fillna('Not Applicable', inplace=True)`
 
-df['Incomplete Rides Reason'].fillna('Not Applicable', inplace=True)
+`df['Incomplete Rides Reason'].fillna('Not Applicable', inplace=True)`
 
-df['Payment Method'].fillna('No Payment (Cancelled)', inplace=True)
+`df['Payment Method'].fillna('No Payment (Cancelled)', inplace=True)`
 
-df['Cancelled Rides by Customer'].fillna('Not Applicable', inplace=True)
+`df['Cancelled Rides by Customer'].fillna('Not Applicable', inplace=True)`
 
-df['Cancelled Rides by Driver'].fillna('Not Applicable', inplace=True)
+`df['Cancelled Rides by Driver'].fillna('Not Applicable', inplace=True)`
 
-df['Incomplete Rides'].fillna('Not Applicable', inplace=True)
+`df['Incomplete Rides'].fillna('Not Applicable', inplace=True)`
 
 **RESULT:**
 
@@ -146,12 +152,16 @@ From the table above the dataset contain columns with no missing values.
 
 ![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Convert%20the%20date%20column.png)
 
+`df['Date'] = pd.to_datetime(df['Date'])`
+
 - Changes the ‘date’ column from a string (text) into a proper datetime object.
 - This makes it easier to sort by date, filter by date ranges, or extract parts like month, day, or year.
 
 **5.	Combine Date and Time into Datetime column**
 
 ![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Combine%20date%20and%20time.png)
+
+`df['Datetime'] = pd.to_datetime(df['Date'].astype(str) + " " + df['Time'].astype(str))`
 
 - Merges the two columns (date and time) into one full timestamp column called ‘datetime’.
 - This is crucial for time-based analysis (hourly, daily, weekly patterns).
@@ -160,6 +170,12 @@ From the table above the dataset contain columns with no missing values.
 **6.	Extract Hour and Day of the week**
 
 ![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Extract%20hour.png)
+
+`df['Hour'] = df['Datetime'].dt.hour`
+
+`df['Day_of_week'] = df['Datetime'].dt.day_name()`
+
+`df`
 
 - dt.hour creates a new column ‘hour’ that stores just the hour of the day (0-23).
 - It is super helpful for analyzing peak booking hours.
@@ -308,7 +324,17 @@ The histogram shows a small but noticeable clusters of 3.0 – 4.0 ratings for b
 
 - **Payment method preference plot**
 
-![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Payment%20prefrence%20plot.png)
+`plt.figure(figsize=(7,7))`
+
+`plt.pie(payment_counts.values, labels=payment_counts.index, autopct='%1.1f%%', startangle=90, colors=plt.cm.Paired.colors, wedgeprops={'edgecolor':'white', 'linewidth': 1})`
+
+Add a title
+
+`plt.title('Distribution of Payment Methods', fontsize=14, fontweight='bold')`
+
+Show the pie chart
+
+`plt.show()`
 
 **Result:**
 
