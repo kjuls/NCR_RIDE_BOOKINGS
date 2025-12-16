@@ -338,7 +338,7 @@ Show the pie chart
 
 **Result:**
 
-![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Payment%20prefrence%20visual.png)
+![](https://github.com/kjuls/NCR_RIDE_BOOKINGS/blob/main/Distribution%20Payment%20Methods.png)
 
 The analysis above shows:
 - One-third of rides result in no completed payment, indicating extremely high cancellation behavior. 
